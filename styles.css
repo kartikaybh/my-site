@@ -1034,9 +1034,8 @@ footer {
 
 .widget-launchers {
     position: fixed;
-    bottom: 50%;
+    bottom: 24px;
     right: 24px;
-    transform: translateY(50%);
     z-index: 9999;
     display: flex;
     flex-direction: column;
@@ -1048,7 +1047,7 @@ footer {
 .widget-launchers.launchers-hidden {
     opacity: 0;
     pointer-events: none;
-    transform: translateY(50%) translateY(8px);
+    transform: translateY(8px);
 }
 
 .launcher-btn {
@@ -1097,9 +1096,8 @@ footer {
 .chat-widget,
 .proposal-widget {
     position: fixed;
-    top: 50%;
+    bottom: 24px;
     right: 24px;
-    transform: translateY(-50%);
     z-index: 9998;
     display: flex;
     flex-direction: column;
@@ -1121,7 +1119,7 @@ footer {
     overflow: hidden;
     max-height: 520px;
     transform: scale(0.92) translateY(12px);
-    transform-origin: center right;
+    transform-origin: bottom right;
     opacity: 0;
     pointer-events: none;
     transition: transform 0.25s cubic-bezier(0.34,1.56,0.64,1), opacity 0.2s;
