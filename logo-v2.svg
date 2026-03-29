@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 108" role="img" aria-label="Kartikay Bhardwaj">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400;1,500&family=Jost:wght@300;400&display=swap');
+    </style>
+  </defs>
+
+  <!-- Display name in Cormorant italic -->
+  <text
+    x="8" y="70"
+    font-family="'Cormorant Garamond', Georgia, serif"
+    font-size="72"
+    font-weight="400"
+    font-style="italic"
+    fill="currentColor"
+    letter-spacing="-1">Kartikay</text>
+
+  <!-- Gold rule -->
+  <line x1="8" y1="80" x2="372" y2="80" stroke="#A87830" stroke-width="0.8"/>
+
+  <!-- Surname in Jost, wide tracking -->
+  <text
+    x="10" y="98"
+    font-family="'Jost', sans-serif"
+    font-size="12"
+    font-weight="300"
+    letter-spacing="8.5"
+    fill="currentColor"
+    opacity="0.65">BHARDWAJ</text>
+</svg>
