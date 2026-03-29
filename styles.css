@@ -1034,8 +1034,9 @@ footer {
 
 .widget-launchers {
     position: fixed;
-    bottom: 24px;
+    bottom: 50%;
     right: 24px;
+    transform: translateY(50%);
     z-index: 9999;
     display: flex;
     flex-direction: column;
@@ -1047,7 +1048,7 @@ footer {
 .widget-launchers.launchers-hidden {
     opacity: 0;
     pointer-events: none;
-    transform: translateY(8px);
+    transform: translateY(50%) translateY(8px);
 }
 
 .launcher-btn {
@@ -1096,8 +1097,9 @@ footer {
 .chat-widget,
 .proposal-widget {
     position: fixed;
-    bottom: 24px;
+    top: 50%;
     right: 24px;
+    transform: translateY(-50%);
     z-index: 9998;
     display: flex;
     flex-direction: column;
@@ -1119,7 +1121,7 @@ footer {
     overflow: hidden;
     max-height: 520px;
     transform: scale(0.92) translateY(12px);
-    transform-origin: bottom right;
+    transform-origin: center right;
     opacity: 0;
     pointer-events: none;
     transition: transform 0.25s cubic-bezier(0.34,1.56,0.64,1), opacity 0.2s;
@@ -1359,9 +1361,9 @@ footer {
 .chat-send:active { transform: scale(0.97); }
 
 @media (max-width: 480px) {
-    .widget-launchers { bottom: 16px; right: 16px; }
+    .widget-launchers { right: 16px; }
     .chat-widget,
-    .proposal-widget { bottom: 16px; right: 16px; }
+    .proposal-widget { right: 16px; }
     .chat-panel,
     .proposal-panel { width: calc(100vw - 32px); }
 }
